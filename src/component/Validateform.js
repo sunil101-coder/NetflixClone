@@ -12,7 +12,7 @@ export default function Validateform(values)
         errors.email="Please entered an invalid email address!";
     }
     else {
-        <Redirect to='/signup'/>
+        window.history.push('/signup');
       }
    
        
