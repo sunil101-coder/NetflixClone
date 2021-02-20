@@ -93,7 +93,7 @@ height:109vh;
 `}
 ${customMedia.lessThan('smMobile')`
 width:100vh;
-height:109vh;
+height:41rem;
 `}
 form .email-error{
     border-bottom:4px solid #db7302;
