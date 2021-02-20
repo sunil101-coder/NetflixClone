@@ -157,7 +157,7 @@ span{
     ${customMedia.lessThan('smMobile')
     `
     grid-column:2/8;
-    margin:0 0 0 2rem;
+    margin:0 0 0 rem;
     font-size:smaller;
 
    `}
@@ -165,7 +165,7 @@ span{
 
 //tab-bootom-pricelist
 .tab-bottom-price{
-  margin:1.5rem auto;
+  margin:1.5rem  0 0 8rem;
   
 }
 table{
@@ -201,7 +201,7 @@ table{
     `}
     ${customMedia.lessThan('smMobile')
     `transform:translate(10%,-5%);
-    width:24rem;
+    width:30rem;
     font-weight:bold;
     font-size:small;
 
