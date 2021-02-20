@@ -11,7 +11,7 @@ export default function Validateform(values)
         errors.email="Please entered an invalid email address!";
     }
     else {
-        window.location.href="signup";
+        window.location.href="http:/signup";
       }
    
        
@@ -22,7 +22,7 @@ export default function Validateform(values)
             errors.password="Your password must contain between 4 and 60 characters";
     }
     else {
-        window.location.href="/chooseplan";
+        window.location.href="http:/signup/chooseplan";
       }
    
     return errors
