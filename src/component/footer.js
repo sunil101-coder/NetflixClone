@@ -131,6 +131,7 @@ color:#999;
           `}
       
         ${customMedia.lessThan('smMobile')`
+        margin-left:8rem;
         grid-template-columns:repeat(2,1fr);
         width:max-content;
         `
@@ -146,7 +147,7 @@ color:#999;
  
          `}
          ${customMedia.lessThan('smMobile')`
-         margin-left:3rem;
+         margin-left:5rem;
         
            `}
                         }
@@ -189,7 +190,7 @@ a:hover{
    
     `}
     ${customMedia.lessThan('smMobile')`
-    margin-left:1.58rem;
+    margin-left:9.58rem;
    
     `}
 }

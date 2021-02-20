@@ -11,7 +11,7 @@ export default function Validateform(values)
         errors.email="Please entered an invalid email address!";
     }
     else {
-        window.location.href="/signup";
+        window.location.href="signup";
       }
    
        

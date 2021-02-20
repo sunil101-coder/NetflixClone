@@ -148,6 +148,9 @@ form p{
     align-content:center;
     text-align:center;
     flex-direction:column;
+    ${customMedia.lessThan('smMobile')`
+        margin:10.5rem 0 0 0;
+        `}
 }
 .titlebtn
 {

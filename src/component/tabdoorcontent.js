@@ -83,6 +83,6 @@ ${customMedia.lessThan('tablet')`
 margin:0px 0 0 14.434rem;
 `}
 ${customMedia.lessThan('smMobile')`
-margin:0px 0 0 6.434rem;
+margin:0px 0 0 13.434rem;
 `}
 `;
