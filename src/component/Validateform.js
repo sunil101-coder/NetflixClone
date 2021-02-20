@@ -1,4 +1,3 @@
-import {Redirect} from 'react-router-dom'
 export default function Validateform(values)
 {
     let errors=[];
@@ -12,7 +11,7 @@ export default function Validateform(values)
         errors.email="Please entered an invalid email address!";
     }
     else {
-        window.history.push('/signup');
+        window.location.href="http://localhost:3000/signup";
       }
    
        
@@ -23,7 +22,7 @@ export default function Validateform(values)
             errors.password="Your password must contain between 4 and 60 characters";
     }
     else {
-        window.location.href="http:/signup/chooseplan";
+        window.location.href="http://localhost:3000/signup/chooseplan";
       }
    
     return errors

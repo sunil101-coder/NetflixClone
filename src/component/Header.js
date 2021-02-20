@@ -33,12 +33,15 @@ const Header = () => {
 
                 </Subtitle>
                 <form  onSubmit={handleSubmit} >
+                    <label>
                     <EmailInput type="text"
                      placeholder="Email Address"
                       value={values.email} 
                       name="email"
                      onChange={handleChange}
                      className={errors.email ?'email-error':'EmailInput'} />
+                    </label>
+                    
                     <Button className="titlebtn"  primary >
                         
                     <span id="span-text">

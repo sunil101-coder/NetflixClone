@@ -75,7 +75,7 @@ background:var(--main-deep-dark);
 }`;
 const Image=styled.img`
 right:0;
-width:14rem;
+width:224px;
 justify-content:center;
 height:300px;
 margin:-130px 0 0 5.234rem;
