@@ -1,0 +1,30 @@
+import {useState,useEffect} from 'react'
+
+const Headerform=Validateform=>{
+    const [values,setvalues]=useState({
+        email:"",
+        password:""
+           });
+    const [errors,seterror]=useState({});
+    const handleChange=event=>{
+        const { name, value}=event.target;
+        setvalues((preValue) => {
+            return{
+              ...preValue,
+              [name]:value
+            };
+          
+    })
+};
+    const handleSubmit=(e)=>{
+        e.preventDefault();
+        seterror(Validateform(values));   
+    };
+      
+
+
+    
+    return {handleChange,values,handleSubmit,errors}  ;
+};
+
+export default Headerform
