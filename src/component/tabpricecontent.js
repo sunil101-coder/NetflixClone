@@ -165,7 +165,7 @@ span{
 
 //tab-bootom-pricelist
 .tab-bottom-price{
-  margin:1.5rem  0 0 8rem;
+  margin:1.5rem  0 0 4rem;
   
 }
 table{
