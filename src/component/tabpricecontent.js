@@ -12,7 +12,7 @@ const tabprrice = () => {
                 <span>
                     Choose your plan and watch everything on netflix             </span>
                 <br />
-               <NavLink to ="/signup/chooseplan"> <Button className="btn" >Start your free trail</Button> </NavLink> 
+               <NavLink to ="/signup"> <Button className="btn" >Start your free trail</Button> </NavLink> 
                 
             </div>
             <div className="tab-bottom-price">

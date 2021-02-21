@@ -41,9 +41,9 @@ const Header = () => {
                      onChange={handleChange}
                      className={errors.email ?'email-error':'EmailInput'} />
                     </label>
-                    
                     <Button className="titlebtn"  primary >
-                        
+
+                                             
                     <span id="span-text">
                     Get Started    &#10140;
                         </span>

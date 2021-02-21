@@ -1,3 +1,4 @@
+import {Redirect} from 'react-router-dom';
 export default function Validateform(values)
 {
     let errors=[];
@@ -10,9 +11,10 @@ export default function Validateform(values)
         errors.email="Please entered a valid email address!";
     }
     else {
-
-        window.location.href="/signup";
-      }
+    
+            window.location="/signup";
+        
+              }
    
        
     if(!values.password){
