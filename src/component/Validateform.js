@@ -1,7 +1,6 @@
 export default function Validateform(values)
 {
     let errors=[];
-    var phoneno = /^\d{10}$/;
        
     if(!values.email){
         errors.email="Email or Phone number required";
@@ -11,7 +10,8 @@ export default function Validateform(values)
         errors.email="Please entered a valid email address!";
     }
     else {
-        window.location.href="signup";
+
+        window.location.href="/signup";
       }
    
        
