@@ -18,7 +18,8 @@ const Headerform=Validateform=>{
 };
     const handleSubmit=(e)=>{
         e.preventDefault();
-        seterror(Validateform(values));   
+        seterror(Validateform(values)); 
+        window.location="/signup"  
     };
       
 
