@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Button from '../component/Button'
+import {NavLink }from 'react-router-dom'
 import  { ImCross  }  from 'react-icons/im/index'
 import { RiCheckFill } from 'react-icons/ri/index'
 import { generateMedia } from "styled-media-query"
@@ -11,7 +12,7 @@ const tabprrice = () => {
                 <span>
                     Choose your plan and watch everything on netflix             </span>
                 <br />
-                <Button className="btn">Start your free trail</Button>
+               <NavLink to ="/signup/chooseplan"> <Button className="btn" >Start your free trail</Button> </NavLink> 
                 
             </div>
             <div className="tab-bottom-price">
