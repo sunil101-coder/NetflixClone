@@ -20,7 +20,7 @@
 @media(max-width:600px)
 {
     .tab-row{
-        width:100vh
+        width:50rem;
     }
 }
 /* tab hover*/

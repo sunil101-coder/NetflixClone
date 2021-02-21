@@ -99,7 +99,7 @@ height:41rem;
 `}
 
 ${customMedia.lessThan('smMobile')`
-width:max-content;
+width:50rem;
 height:41rem;
 `}
 form .email-error{
