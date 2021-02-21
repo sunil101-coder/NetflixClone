@@ -87,10 +87,17 @@ left:-12%;
 
 //headercomponent
 const Headercomponent = styled.div`
+width:100%;
+
 ${customMedia.lessThan('mdDesktop')`
 width:100%;
 height:109vh;
 `}
+${customMedia.lessThan('tablet')`
+width:51vh;
+height:41rem;
+`}
+
 ${customMedia.lessThan('smMobile')`
 width:100vh;
 height:41rem;
@@ -161,7 +168,7 @@ form p{
     outline:none;
     border-radius:0.235rem;
     ${customMedia.lessThan('smMobile')`
-    margin:7px 0 0 4px;
+    margin:7px 0 0 0;
     `}
 
 }
@@ -215,7 +222,7 @@ border-radius:1.011rem;
 border:1px solid #db7203;
 outline:none;
 ${customMedia.lessThan('smMobile')`
-        width:480px;
+        width:350px;
         height:56px;
         
 `}
