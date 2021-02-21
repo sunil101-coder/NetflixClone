@@ -161,7 +161,7 @@ form p{
     outline:none;
     border-radius:0.235rem;
     ${customMedia.lessThan('smMobile')`
-    margin:7px 0 0 0;
+    margin:7px 0 0 4px;
     `}
 
 }
@@ -215,7 +215,7 @@ border-radius:1.011rem;
 border:1px solid #db7203;
 outline:none;
 ${customMedia.lessThan('smMobile')`
-        width:350px;
+        width:480px;
         height:56px;
         
 `}
