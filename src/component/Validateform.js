@@ -8,7 +8,7 @@ export default function Validateform(values)
     }
     else if(!/^[A-Z0-9.%+-]+@[A-Z0-9-]+\.[A-Z]{2,}$/i.test(values.email))
     {
-        errors.email="Please entered an invalid email address!";
+        errors.email="Please entered a valid email address!";
     }
     else {
         window.location.href="signup";

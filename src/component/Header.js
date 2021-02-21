@@ -94,12 +94,12 @@ width:100%;
 height:109vh;
 `}
 ${customMedia.lessThan('tablet')`
-width:51vh;
+width:100%;
 height:41rem;
 `}
 
 ${customMedia.lessThan('smMobile')`
-width:100vh;
+width:max-content;
 height:41rem;
 `}
 form .email-error{
