@@ -25,12 +25,6 @@ const Headerform=Validateform=>{
         seterror(Validateform(values)); 
 
     }
-    else{
-
-            window.location.href="/signup";
-          
-       
-    }
         
     };
       

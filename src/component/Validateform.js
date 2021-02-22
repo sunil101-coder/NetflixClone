@@ -10,7 +10,13 @@ export default function Validateform(values)
     {
         errors.email="Please entered a valid email address!";
     }
-    
+    else{
+
+        window.location="/signup";
+      
+   
+}
+
    
        
     if(!values.password){
