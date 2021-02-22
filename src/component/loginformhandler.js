@@ -1,6 +1,6 @@
 import {useState,useEffect} from 'react'
 
-const Useform=Validateform=>{
+const Useform=Loginvalidation=>{
     const [values,setvalues]=useState({
         email:"",
         password:"",
@@ -20,7 +20,7 @@ const Useform=Validateform=>{
 };
     const handleSubmit=(e)=>{
         e.preventDefault();
-        seterror(Validateform(values));
+        seterror(Loginvalidation(values));
     };
     
     return {handleChange,values,handleSubmit,errors} ;

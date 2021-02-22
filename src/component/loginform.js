@@ -3,11 +3,11 @@ import styled from 'styled-components'
 import { generateMedia } from "styled-media-query" 
 import {Link} from 'react-router-dom'
 import {FaFacebookSquare} from 'react-icons/fa/index'
-import Useform from '../component/useform'
-import Validateform from '../component/Validateform'
+import Loginformhandler from './loginformhandler'
+import Loginformvalidation from '../component/loginformvalidation'
 
 const Loginform = () => {
-    const {handleChange,values,handleSubmit,errors}=Useform(Validateform);
+    const {handleChange,values,handleSubmit,errors}=Loginformhandler(Loginformvalidation);
     return (
         <Loginformcontainer>
             <div className="login-form"> 

@@ -13,7 +13,7 @@ const Header = () => {
     return (
         <Headercomponent className="header-container">
             <div className="header-top">
-                <Logo src={logo} alt="netflix-logo" />
+            <NavLink to="/"><Logo src={logo} alt="netflix-logo" /></NavLink>
                 <NavLink to="/login" className="signup-btn">
                     Sign Up
                 </NavLink>

@@ -13,7 +13,7 @@ const Signuppage = () => {
         <Chooseplan>
             <form>
                 <div className="chooseplan-header">
-                    <Logo src={logo} alt="netflix-logo" />
+                <NavLink to="/"><Logo src={logo} alt="netflix-logo" /></NavLink>
                     <NavLink to="/login" className="signup-btn">
                         Sign In
                 </NavLink>
