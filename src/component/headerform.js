@@ -1,6 +1,8 @@
 import {useState,useEffect} from 'react'
+import {Link} from 'react-router-dom'
 
 const Headerform=Validateform=>{
+    
     const [values,setvalues]=useState({
         email:"",
         password:""
@@ -18,8 +20,18 @@ const Headerform=Validateform=>{
 };
     const handleSubmit=(e)=>{
         e.preventDefault();
+
+    if(Validateform(values)){
         seterror(Validateform(values)); 
+
+    }
+    else{
+
+            window.location.href="/signup";
           
+       
+    }
+        
     };
       
 

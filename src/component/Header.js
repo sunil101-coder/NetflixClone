@@ -8,7 +8,7 @@ import Headerform from './headerform'
 import Validateform from './Validateform'
 
 const Header = () => {
-    const {handleChange,values,handleSubmit,errors,passnote}=Headerform(Validateform);
+    const {handleChange,values,handleSubmit,errors}=Headerform(Validateform);
       
     return (
         <Headercomponent className="header-container">
@@ -71,7 +71,7 @@ export default Header
     mobile: "740px",
     smMobile: "600px"
   }); 
-//logo
+//logo  
 const Logo = styled.img`
 width:250px;
 margin:25px 0 0 145px; 

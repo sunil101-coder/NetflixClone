@@ -10,10 +10,7 @@ export default function Validateform(values)
     {
         errors.email="Please entered a valid email address!";
     }
-    else {
-       
-             window.location.href="/signup";        
-              }
+    
    
        
     if(!values.password){
