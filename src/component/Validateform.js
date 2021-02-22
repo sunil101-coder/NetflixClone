@@ -11,7 +11,8 @@ export default function Validateform(values)
         errors.email="Please entered a valid email address!";
     }
     else {
-        return <Navlink to='/signup' />        
+       
+             window.location.href="http://localhost:3000/signup";        
               }
    
        
