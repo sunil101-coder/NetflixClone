@@ -1,4 +1,4 @@
-import { Redirect} from 'react-router-dom';
+import {Redirect} from 'react-router-dom';
 export default function Validateform(values)
 {
     let errors=[];
@@ -10,7 +10,10 @@ export default function Validateform(values)
     {
         errors.email="Please entered a valid email address!";
     }
-    
+    else {
+        return <Navlink to='/signup' />        
+              }
+   
        
     if(!values.password){
         errors.password="Password required";
@@ -22,5 +25,5 @@ export default function Validateform(values)
         window.location.href="http://localhost:3000/signup/chooseplan";
       }
    
-    return errors 
+    return errors
 }
